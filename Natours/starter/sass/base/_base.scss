@@ -1,0 +1,21 @@
+/* this is done to normalize the elements*/
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; /*box-sizing property is not inherited by itself, but by making it inherit explicitly on the top it is inherited by all elements*/
+}
+
+html {
+  /*this defines what 1 rem is*/
+  /*font-size: 10px;*/
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box; /*change the box modal, so that border and padding
+    are not longer added to the total width or height*/
+}
+
+
